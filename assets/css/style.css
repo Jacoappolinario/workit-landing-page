@@ -180,7 +180,7 @@ a {
 
 @media (max-width: 575px) {
   .header-bg {
-    background-image: url("../images/bg-image.svg");
+    background-image: url("../images/bg-image-1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
