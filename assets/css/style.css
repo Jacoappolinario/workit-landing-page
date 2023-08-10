@@ -251,6 +251,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3.5rem;
+}
+
+.introduction-information {
+  display: flex;
+  flex-direction: column;
 }
 
 .introduction-circle {
@@ -261,7 +267,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 56px;
 }
 
 .introduction-circle h2 {
@@ -292,4 +297,85 @@ a {
   max-width: 40ch;
 }
 
-/* TODO: Criar responsividades da introduction */
+@media (max-width: 1200px) {
+  .introduction {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .introduction li {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .introduction-information {
+    flex: 1;
+  }
+
+  .introduction-circle {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #584d62;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+
+  .introduction-title {
+    text-align: left;
+  }
+
+  .introduction-text {
+    text-align: left;
+    max-width: initial;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    padding: 0px 6.13rem 4.48rem;
+  }
+
+  .introduction-circle {
+    width: 48px;
+    height: 46px;
+  }
+
+  .introduction-circle h2 {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
+
+  .introduction-title {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 16px;
+  }
+
+  .introduction-text {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .introduction {
+    padding: 0px 1.02rem 4.48rem;
+  }
+
+  .introduction li {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .introduction-title {
+    text-align: center;
+  }
+
+  .introduction-text {
+    text-align: center;
+    max-width: initial;
+  }
+}
