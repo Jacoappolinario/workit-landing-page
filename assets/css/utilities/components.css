@@ -16,7 +16,7 @@
   border-color: var(--color-2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1075px) {
   .button {
     font-size: 1rem;
     letter-spacing: -0.01rem;
