@@ -53,6 +53,11 @@
     font-size: 1.25rem;
   }
 
+  .font-1-l {
+    font-size: 1.75rem;
+    line-height: 1.28;
+  }
+
   .font-1-xl {
     font-size: 3rem;
     line-height: 1.16;
@@ -68,9 +73,7 @@
     font-size: 2rem;
     line-height: 1.5;
   }
-}
 
-@media (max-width: 375px) {
   .font-1-xxl {
     font-size: 3.125rem;
   }
