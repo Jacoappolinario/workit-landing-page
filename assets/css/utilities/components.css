@@ -1,3 +1,12 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 10.33rem;
+  padding-right: 10.33rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button {
   display: inline-block;
   color: var(--color-1);
@@ -16,9 +25,21 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    padding-left: 2.44rem;
+    padding-right: 2.44rem;
+  }
+
   .button {
     font-size: 1rem;
     letter-spacing: -0.01rem;
     padding: 0.75rem 1.44rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

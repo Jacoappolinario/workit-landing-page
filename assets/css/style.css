@@ -7,6 +7,6 @@
 
 /* Home */
 @import "./home/header.css";
-@import "./home/introduction.css";
+@import "./home/benefits.css";
 @import "./home/founder-promotion.css";
 @import "./home/social-media.css";
