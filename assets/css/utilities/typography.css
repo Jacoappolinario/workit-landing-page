@@ -1,17 +1,3 @@
-@font-face {
-  font-family: "Manrope";
-  src: url("../../fonts/manrope/Manrope.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fraunces 144pt";
-  src: url("../../fonts/fraunces/Fraunces_144pt-SemiBold.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .font-2-s,
 .font-2-s-b {
   font: 400 1.125rem/1.77 "Manrope", sans-serif;
@@ -23,19 +9,19 @@
 }
 
 .font-1-m {
-  font: 600 1.5rem/1.66 "Fraunces 144pt", sans-serif;
+  font: 600 1.5rem/1.66 "Fraunces", sans-serif;
 }
 
 .font-1-l {
-  font: 600 2rem/1.25 "Fraunces 144pt", sans-serif;
+  font: 600 2rem/1.25 "Fraunces", sans-serif;
 }
 
 .font-1-xl {
-  font: 600 3.5rem/1.14 "Fraunces 144pt", sans-serif;
+  font: 600 3.5rem/1.14 "Fraunces", sans-serif;
 }
 
 .font-1-xxl {
-  font: 600 5rem/1 "Fraunces 144pt", sans-serif;
+  font: 600 5rem/1 "Fraunces", sans-serif;
 }
 
 @media (max-width: 1200px) {
