@@ -1,4 +1,4 @@
-.social-media {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-bottom: 6.88rem;
 }
 
-.social-media ul {
+.social-media {
   display: flex;
   align-items: center;
   gap: 1.75rem;

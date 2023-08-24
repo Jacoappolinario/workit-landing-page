@@ -1,0 +1,42 @@
+.header-bg {
+  background-color: var(--color-1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 3.61rem 10.33rem 1.82rem;
+}
+
+.header-menu a {
+  display: inline-block;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: var(--color-2);
+  margin-top: 4px;
+  position: absolute;
+}
+
+.header-menu a:hover {
+  color: var(--color-2);
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 2.31rem 2.44rem 1.82rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 2.31rem 1rem 2.06rem;
+  }
+}
